@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Stride",
+    "slug": "stride-mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stride.mobileapp"
+    },
+    "android": {
+      "package": "com.stride.mobileapp"
+    },
+    "extra": {
+      "apiBaseUrl": "https://jsonplaceholder.typicode.com"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
